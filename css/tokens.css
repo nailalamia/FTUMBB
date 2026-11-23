@@ -1,0 +1,50 @@
+/* Design tokens: colors, radii, shadows, fonts. Dark mode redefines the same variables. */
+:root {
+  --navy-900: #102a52;
+  --navy-700: #1b3a6b;
+  --navy-500: #2f5a9a;
+  --orange: #f7871f;
+  --orange-700: #e0700a;
+  --teal: #1e8e7e;
+  --red: #d64545;
+  --bg: #ffffff;
+  --surface: #f3f6fb;
+  --card: #ffffff;
+  --ink: #172033;
+  --muted: #5b6b82;
+  --line: #dce4ef;
+  --title: #1b3a6b;
+  --accent-text: #b85600;
+  --btn-navy: #1b3a6b;
+  --chip-navy: #e7eef9;
+  --chip-orange: #fef0e1;
+  --chip-teal: #e2f4f1;
+  --red-bg: #fdecec;
+  --shadow: 0 6px 18px rgba(27, 58, 107, 0.1);
+  --shadow-sm: 0 2px 6px rgba(27, 58, 107, 0.08);
+  --radius: 16px;
+  --radius-sm: 12px;
+  --container: 1200px;
+  --font: 'Inter', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;
+}
+
+[data-theme=dark] {
+  --bg: #0b1424;
+  --surface: #0f1b30;
+  --card: #16253f;
+  --ink: #e6edf7;
+  --muted: #9fb0c7;
+  --line: #2a3b58;
+  --title: #9cc4ff;
+  --accent-text: #ffa24a;
+  --btn-navy: #2f5a9a;
+  --chip-navy: #1f3358;
+  --chip-orange: #3a2b1c;
+  --chip-teal: #143a38;
+  --red-bg: #3d1f24;
+  --shadow: 0 6px 18px rgba(0, 0, 0, 0.35);
+  --shadow-sm: 0 2px 6px rgba(0, 0, 0, 0.3);
+  color-scheme: dark;
+}
+
+:root { --hero-img: url('../images/hero.jpg'); }
